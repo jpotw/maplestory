@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}메이플 강화{% endblock %}
+{% block content %}
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class="flash-messages">
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+<div class="kakao-ad">
+    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-KbdwsZ8O86UWMOWU" data-ad-width="320"
+        data-ad-height="500"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+</div>
+<div class="question-container">
+    <div class="question-form">
+        <h1>메이플 강화</h1>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div>
+                {{ form.submit(class="button") }}
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

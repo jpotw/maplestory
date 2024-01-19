@@ -1,0 +1,93 @@
+.question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.question-form {
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text-purple {
+    color: #6c757d;
+}
+
+.chat-container {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.answer-container {
+    background-color: #d7f1ff;
+    color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.chat-box .chat-message.assistant {
+    background-color: #719ECE;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+.flash-messages {
+    font-size: 20px; /* Make the text bigger */
+    color: white; /* Change the text color */
+    background-color: #007bff; /* Change the background color */
+    border-color: #007bff; /* Change the border color */
+    padding: .75rem 1.25rem; /* Add some padding */
+    margin-bottom: 1rem; /* Add some margin */
+    border: 1px solid transparent; /* Add a border */
+    border-radius: .25rem; /* Round the corners */
+}
+
